@@ -1,0 +1,28 @@
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='description', content='Modulus Socket.io Example. For more examples check out our GitHub page at https://github.com/OnModulus.')
+    link(rel='stylesheet', href='/css/style.css')
+    script(type='text/javascript', src='/socket.io/socket.io.js')
+    title #{title}
+  body
+    .header
+      p Modulus + Socket.io
+    .wrapper
+      .content
+        .intro
+          p Welcome to the Modulus Socket.io Example. This app simply tracks all tweets from&nbsp;
+            a(href='http://www.twitter.com') Twitter
+            |  with the keywords&nbsp;
+            a(href='https://twitter.com/search?q=modulus') Modulus
+            | ,&nbsp;
+            a(href='https://twitter.com/search?q=javascript') Javascript
+            | ,&nbsp;
+            a(href='https://twitter.com/search?q=iojs') io.js
+            | , and&nbsp;
+            a(href='https://twitter.com/search?q=es6') ES6
+            | . Watch the magic work!
+        .twitter
+          ul#tweets
+    script(type='text/javascript', src='http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.js')
+    script(type='text/javascript', src='/js/script.js')

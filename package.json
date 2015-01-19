@@ -1,0 +1,19 @@
+{
+  "name": "modulus-socket.io-example",
+  "mod-project-name": "socket.io",
+  "version": "0.0.1",
+  "description": "Modulus Socket.io Example",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Jeremiah Harlan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.9.6",
+    "hbs": "~2.7.0",
+    "jade": "~1.8.1",
+    "node-tweet-stream": "~1.4.0",
+    "socket.io": "~1.1.0"
+  }
+}

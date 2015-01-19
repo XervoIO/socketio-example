@@ -1,0 +1,99 @@
+@font-face {
+  font-family: BrownBold;
+  src: url('../fonts/Brown-Regular.otf');
+}
+
+@font-face {
+  font-family: BrownSlanted;
+  src: url('../fonts/Brown-Regular-Backslanted.otf');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #C6C8C9;
+  font-family: "BrownBold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  background: url('../images/tessell_bg.svg') 0 0/100% auto #333;
+  background-size: cover;
+}
+
+.header > p {
+  font-size: 4em;
+  font-family: "BrownSlanted";
+  color: #7cc1b4;
+}
+
+a {
+  color: #FF4E00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+}
+
+.header img {
+  width: 400px;
+  margin: auto;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: auto;
+}
+
+.content {
+  padding: 40px;
+}
+
+.intro p {
+  font-weight: 500;
+  text-align: center;
+  line-height: 30px;
+}
+
+.twitter {
+  padding: 30px;
+  margin: 30px 0px 0px 0px;
+  overflow: auto;
+  height: 400px;
+  background: #545759;
+  border-radius: 3px;
+  border: 1px solid #747171;
+  color: #fff;
+}
+
+#tweets {
+  list-style: none;
+}
+
+.tweet {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.tweet_image {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet_text {
+  font-size: 16px;
+  margin-top: 10px;
+  display: -webkit-inline-box;
+  width: 790px;
+}
+
+.tweet_time {
+  font-size: 16px;
+  margin: auto;
+}
