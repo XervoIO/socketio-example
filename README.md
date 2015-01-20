@@ -13,15 +13,15 @@ Config.js format:
 
 ```javascript
 module.exports = {
-  consumer_key: process.env.consumer_key || 'ConsumerKey',
-  consumer_secret: process.env.consumer_secret || 'ConsumerSecret',
-  token: process.env.token || 'Token',
-  token_secret: process.env.token_secret || 'TokenSecret'
+  consumer_key: process.env.CONSUMER_KEY || 'ConsumerKey',
+  consumer_secret: process.env.CONSUMER_SECRET || 'ConsumerSecret',
+  token: process.env.TOKEN || 'Token',
+  token_secret: process.env.TOKEN_SECRET || 'TokenSecret'
 };
 ```
 
 You can choose not to configure the config variables and import them from your start script.
 
 ```
-$ consumer_key='ConsumerKey' consumer_secret='ConsumerSecret' token='Token' token_secret='TokenSecret' node app.js
+$ CONSUMER_KEY='ConsumerKey' CONSUMER_SECRET='ConsumerSecret' TOKEN='Token' TOKEN_SECRET='TokenSecret' node app.js
 ```
