@@ -1,6 +1,6 @@
 module.exports = {
-  consumer_key: process.env.consumer_key || 'ConsumerKey',
-  consumer_secret: process.env.consumer_secret || 'ConsumerSecret',
-  token: process.env.token || 'Token',
-  token_secret: process.env.token_secret || 'TokenSecret'
+  consumer_key: process.env.CONSUMER_KEY || 'ConsumerKey',
+  consumer_secret: process.env.CONSUMER_SECRET || 'ConsumerSecret',
+  token: process.env.TOKEN || 'Token',
+  token_secret: process.env.TOKEN_SECRET || 'TokenSecret'
 };

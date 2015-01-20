@@ -43,7 +43,6 @@
 
     // Add span to top of tweets
     tweets.insertBefore(span, tweets.firstChild);
-    // console.log(data);
   };
 
   socket.on('tweet', chirp);
