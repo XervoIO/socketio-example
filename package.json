@@ -3,7 +3,7 @@
   "mod-project-name": "socket.io",
   "version": "0.0.1",
   "description": "Modulus Socket.io Example",
-  "main": "app.js",
+  "main": "socket.js",
   "scripts": {
     "start": "nodemon app.js"
   },
