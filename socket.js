@@ -9,7 +9,7 @@ var tw      = require('node-tweet-stream')(config);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.static(__dirname + '/public'));
-app.locals.title = 'Modulus | Socket.io Example App'
+app.locals.title = 'Modulus | Socket.io Example App';
 
 // Track Tweets
 tw.track('javascript');
