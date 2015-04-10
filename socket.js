@@ -28,6 +28,10 @@ app.get('/', function(req, res) {
   res.render('index');
 });
 
+app.get('*', function(req, res) {
+  res.redirect(301, '/');
+});
+
 server.listen(process.env.PORT || 4343, function(){
   console.log('Modulus Socket.io Example App listening on port %d', server.address().port);
 });
