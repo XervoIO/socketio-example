@@ -5,7 +5,7 @@
   "description": "Modulus Socket.io Example",
   "main": "socket.js",
   "scripts": {
-    "start": "nodemon socket.js"
+    "start": "node socket.js"
   },
   "author": "Jeremiah Harlan",
   "license": "MIT",

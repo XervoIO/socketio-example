@@ -12,9 +12,11 @@ app.use(express.static(__dirname + '/public'));
 app.locals.title = 'Modulus | Socket.io Example App';
 
 // Track Tweets
-tw.track('javascript');
 tw.track('modulus');
 tw.track('iojs');
+tw.track('nodejs');
+tw.track('nativescript');
+tw.track('docker');
 tw.track('es6');
 
 // Send Tweet to Socket.io
